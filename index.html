@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="custom.css" rel="stylesheet" >
+    <title>Springfield</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="site-title p-2" role="banner" aria-level="1">
+                <h1>Welcome to Springfield</h1>
+            </div>
+
+            <!-- Nav-bar -->
+            <nav class="navbar navbar-expand-md navbar-light bg-transparent" role="navigation" aria-label="Main Menu">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo3" aria-controls="navbarTogglerDemo3" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse show" id="navbarTogglerDemo3">
+                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-current="true">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="input-group-button-right">
+                            <button type="button" class="btn btn-outline-secondary" id="input-group-button-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path fill="#000000" d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                              </svg></button>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            
+            <div class="col-lg-4">
+
+                <!-- Card one -->
+                <div class="card">
+                    <img src="img/alvin.jpg" class="card-img-top" alt="Spring flowers with pinkish hue">
+                    <div class="card-body">
+                      <h2 class="card-title" role="heading" aria-level="2">Cheesecake</h2>
+                      <p class="card-text" role="complementary" aria-label="Image Details">A sweet dessert consisting of one or more layers.</p>
+                      <button type="button" class="btn btn-dark">Order</button>
+                    </div>
+                </div>
+
+                <!-- Card two -->
+                <div class="card mt-3">
+                    <img src="img/simon.jpg" class="card-img-top" alt="Spring flowers with grayish hue">
+                    <div class="card-body">
+                      <h2 class="card-title" role="heading" aria-level="2">Cupcake</h2>
+                      <p class="card-text" role="complementary" aria-label="Image Details">A small cake designed to serve one person.</p>
+                      <button type="button" class="btn btn-dark">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <!--Big image -->
+                <img src="img/theodore.jpg" class="img-fluid" alt="Spring flowers with sky bluish hue">
+            </div>
+
+          </div>
+
+         <footer>
+             <div class="text-muted pt-2 text-center">
+                <p>Copyright &copy; Bootstrap 2022</p>
+             </div>
+         </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

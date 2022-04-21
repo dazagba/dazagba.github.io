@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Rubik+Moonrocks&display=swap');
+
+h1{
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+h2, p{
+    font-family: 'Baloo 2', cursive, serif;
+}
+
+.navbar{
+    font-family: 'Baloo 2', cursive, serif;
+    font-size:larger;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.btn-dark{
+    opacity:0.8;
+    border-radius:10%;
+    font-family: 'Baloo 2', cursive;
+}
+
+.btn-dark:hover,.btn-dark:focus {
+    background-color:#a4ecfd	;
+    color: #000;
+}
+
+.btn-outline-secondary{
+    background-color: #E8E8E8;
+    border: 0;
+}
+
+.card{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.img-fluid{
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
